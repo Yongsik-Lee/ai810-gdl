@@ -5,7 +5,7 @@ description: I review two recent papers, Regulatory DNA Sequence Design with Rei
 date: 2025-04-28
 future: true
 htmlwidgets: true
-#hidden: false
+hidden: false
 
 # Anonymize when submitting
 # authors:
