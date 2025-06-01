@@ -1,7 +1,7 @@
 ---
 layout: page
 title: past iterations
-nav: true
+nav: false
 nav_order: 99
 dropdown: false
 children: 
