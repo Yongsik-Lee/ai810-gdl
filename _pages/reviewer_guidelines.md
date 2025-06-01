@@ -3,7 +3,7 @@ layout: page
 title: reviewing
 permalink: /reviewing/
 description:
-nav: true
+nav: false
 nav_order: 4
 ---
 

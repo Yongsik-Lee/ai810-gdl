@@ -3,7 +3,7 @@ layout: page
 title: past iterations
 nav: true
 nav_order: 99
-dropdown: true
+dropdown: false
 children: 
     - title: <strong>2025</strong>
       permalink: https://iclr-blogposts.github.io/2025/
