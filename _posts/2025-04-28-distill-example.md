@@ -1,9 +1,7 @@
 ---
 layout: distill
-title: Sample Blog Post
-description: Your blog post's abstract.
-  Please add your abstract or summary here and not in the main body of your text. 
-  Do not include math/latex or hyperlinks.
+title: AI810 Blog Post (20205266)
+description: I review two papers, Regulatory DNA Sequence Design with Reinforcement Learning and Generator matching: Generative modeling with arbitrary markov processes.
 date: 2025-04-28
 future: true
 htmlwidgets: true
