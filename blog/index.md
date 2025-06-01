@@ -4,6 +4,16 @@ title: blog
 nav: true
 nav_order: 9
 permalink: /blog
+pagination:
+  enabled: true
+  collection: posts
+  permalink: /page/:num/
+  per_page: 50
+  sort_field: title
+  sort_reverse: false
+  trail:
+    before: 1 # The number of links before the current page
+    after: 3  # The number of links after the current page
 ---
 
 <div class="post">
@@ -29,7 +39,7 @@ permalink: /blog
   {% endif %}
 
   <ul class="post-list">
-    {% for post in site.posts %}
+    {% for post in paginator.posts %}
 
     {% if post.external_source == blank %}
       {% assign read_time = post.content | number_of_words | divided_by: 180 | plus: 1 %}
@@ -87,5 +97,7 @@ permalink: /blog
 
     {% endfor %}
   </ul>
+
+  {% include pagination.html %}
 
 </div>
