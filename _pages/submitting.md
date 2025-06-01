@@ -3,7 +3,7 @@ layout: page
 title: submitting
 permalink: /submitting/
 description:
-nav: true
+nav: false
 nav_order: 3
 ---
 
@@ -35,17 +35,21 @@ Small mistakes here can have very hard-to-debug consequences.**
 
 ### Contents
 
+- [A more open process](#a-more-open-process)
+- [Template](#template)
+- [Contents](#contents)
 - [Quickstart](#quickstart)
 - [Download the Blog Repository](#download-the-blog-repository)
 - [Creating a Blog Post](#creating-a-blog-post)
-- [Local Serving](#local-serving)
-   - [Method 1: Using Docker](#method-1-using-docker)
-   - [Method 2: Using Jekyll Manually](#method-2-using-jekyll-manually)
-      - [Installation](#installation)
-      - [Manual Serving](#manual-serving)
-- [Submitting Your Blog Post](#submitting-your-blog-post)
+- [Local serving](#local-serving)
+  - [Method 1: Using Docker](#method-1-using-docker)
+  - [Method 2: Using Jekyll Manually](#method-2-using-jekyll-manually)
+    - [Installation](#installation)
+    - [Manual Serving](#manual-serving)
+- [Submitting your Blog Post](#submitting-your-blog-post)
 - [Reviewing Process](#reviewing-process)
-- [Camera Ready (TBD)](#camera-ready)
+- [Camera-ready](#camera-ready)
+- [Full guide coming soon!](#full-guide-coming-soon)
 
 
 ### Quickstart
