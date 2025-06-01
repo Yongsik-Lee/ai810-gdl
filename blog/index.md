@@ -4,16 +4,6 @@ title: blog
 nav: true
 nav_order: 9
 permalink: /blog
-pagination:
-  enabled: true
-  collection: posts
-  permalink: /page/:num/
-  per_page: 50
-  sort_field: title
-  sort_reverse: false
-  trail:
-    before: 1 # The number of links before the current page
-    after: 3  # The number of links after the current page
 ---
 
 <div class="post">
@@ -97,7 +87,5 @@ pagination:
 
     {% endfor %}
   </ul>
-
-  {% include pagination.html %}
 
 </div>
